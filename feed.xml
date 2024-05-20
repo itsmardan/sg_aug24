@@ -3,10 +3,10 @@
     <channel>
         <title>Dream Startup</title>
         <description>Entrepreneurs, with passion for a vision, invent the future they want. At Dream Startup, we transform your side project into a standout brand.</description>
-        <link>/</link>
-        <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 20 May 2024 21:34:30 +0100</pubDate>
-        <lastBuildDate>Mon, 20 May 2024 21:34:30 +0100</lastBuildDate>
+        <link>https://dreamstartup.co.uk/</link>
+        <atom:link href="https://dreamstartup.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 20 May 2024 21:42:10 +0100</pubDate>
+        <lastBuildDate>Mon, 20 May 2024 21:42:10 +0100</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
         
             <item>
@@ -47,8 +47,8 @@
 
 </description>
                 <pubDate>Mon, 20 May 2024 12:00:00 +0100</pubDate>
-                <link>/posts/how-to-launch-your-startup-in-30-dayshigh-speed-website</link>
-                <guid isPermaLink="true">/posts/how-to-launch-your-startup-in-30-dayshigh-speed-website</guid>
+                <link>https://dreamstartup.co.uk/posts/how-to-launch-your-startup-in-30-dayshigh-speed-website</link>
+                <guid isPermaLink="true">https://dreamstartup.co.uk/posts/how-to-launch-your-startup-in-30-dayshigh-speed-website</guid>
                 
                 <category>startup</category>
                 
@@ -1225,8 +1225,8 @@
 
 </description>
                 <pubDate>Mon, 20 May 2024 11:30:00 +0100</pubDate>
-                <link>/posts/why-your-brand-needs-a-high-speed-website-copy</link>
-                <guid isPermaLink="true">/posts/why-your-brand-needs-a-high-speed-website-copy</guid>
+                <link>https://dreamstartup.co.uk/posts/why-your-brand-needs-a-high-speed-website-copy</link>
+                <guid isPermaLink="true">https://dreamstartup.co.uk/posts/why-your-brand-needs-a-high-speed-website-copy</guid>
                 
                 <category>branding</category>
                 
@@ -1276,8 +1276,8 @@
 
 </description>
                 <pubDate>Mon, 20 May 2024 11:00:00 +0100</pubDate>
-                <link>/posts/never-pay-for-website-hosting-again</link>
-                <guid isPermaLink="true">/posts/never-pay-for-website-hosting-again</guid>
+                <link>https://dreamstartup.co.uk/posts/never-pay-for-website-hosting-again</link>
+                <guid isPermaLink="true">https://dreamstartup.co.uk/posts/never-pay-for-website-hosting-again</guid>
                 
                 <category>free webhosting</category>
                 
@@ -2357,8 +2357,8 @@
 
 </description>
                 <pubDate>Mon, 20 May 2024 10:30:00 +0100</pubDate>
-                <link>/posts/erase-your-brand-web-hosting-bill-forever-copy</link>
-                <guid isPermaLink="true">/posts/erase-your-brand-web-hosting-bill-forever-copy</guid>
+                <link>https://dreamstartup.co.uk/posts/erase-your-brand-web-hosting-bill-forever-copy</link>
+                <guid isPermaLink="true">https://dreamstartup.co.uk/posts/erase-your-brand-web-hosting-bill-forever-copy</guid>
                 
                 <category>free webhosting</category>
                 
@@ -3449,8 +3449,8 @@
 
 </description>
                 <pubDate>Sun, 07 Jan 2024 12:01:35 +0000</pubDate>
-                <link>/posts/permanent-free-webhosting-for-your-custom-website</link>
-                <guid isPermaLink="true">/posts/permanent-free-webhosting-for-your-custom-website</guid>
+                <link>https://dreamstartup.co.uk/posts/permanent-free-webhosting-for-your-custom-website</link>
+                <guid isPermaLink="true">https://dreamstartup.co.uk/posts/permanent-free-webhosting-for-your-custom-website</guid>
                 
                 <category>free webhosting</category>
                 
