@@ -132,8 +132,6 @@
                 
                   <a href="/contact-us/" class="nav__link">Contact Us</a>
                 
-                  <a href="/our-team/" class="nav__link">Our Team</a>
-                
                 </div>
               </li>
               
@@ -342,7 +340,7 @@
 
 
       <p class="article__excerpt">In the digital age, reaching a broader audience requires more than just a presence online; it demands a well-thought-out strategy. Strategic digital marketing can significantly enhance your brand’s visibility and engagement, driving growth and suc...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -353,7 +351,7 @@
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -394,7 +392,7 @@
 
 
       <p class="article__excerpt">In today’s competitive business landscape, leveraging custom software can be the key to unlocking unprecedented growth. Tailored solutions that meet specific business needs can streamline operations, enhance productivity, and provide a significant...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -405,7 +403,7 @@
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -448,7 +446,7 @@
       <p class="article__excerpt">Launching a startup in 30 days may seem ambitious, but with a structured plan and focused execution, it’s entirely possible. Here’s a comprehensive guide to help you turn your entrepreneurial vision into reality within a month.
 
 Day 1-7: Ideation ...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -459,7 +457,7 @@ Day 1-7: Ideation ...</p>
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -504,7 +502,7 @@ Day 1-7: Ideation ...</p>
 Blazing Fast Load Times
 
 A high-speed static website o...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -515,7 +513,7 @@ A high-speed static website o...</p>
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -556,7 +554,7 @@ A high-speed static website o...</p>
 
 
       <p class="article__excerpt">In today’s digital landscape, local search engine optimisation (SEO) has become a crucial component for businesses aiming to attract nearby customers. One of the most powerful tools in this regard is Google Maps. Leveraging Google Maps can transfo...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -567,7 +565,7 @@ A high-speed static website o...</p>
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -608,7 +606,7 @@ A high-speed static website o...</p>
 
 
       <p class="article__excerpt">Imagine never paying for website hosting again. It may sound too good to be true, but with the right approach, it’s entirely possible. This article will guide you through the methods to achieve this using static site architecture and platforms lik...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -619,7 +617,7 @@ A high-speed static website o...</p>
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -634,7 +632,7 @@ A high-speed static website o...</p>
 <!-- begin pagination -->
 <div class="container animate">
   <div class="pagination">
-    <button class="load-more-posts button">Load more posts</button>
+    <button class="load-more-posts button">Load more </button>
   </div>
 </div>
 <!-- end pagination -->
@@ -727,6 +725,51 @@ A high-speed static website o...</p>
   </div>
 </footer>
 <!-- end footer -->
+
+
+<!-- WhatsApp Button -->
+<a class="whatsapp-widget" aria-label="Chat on WhatsApp" href="https://wa.me/447915762239" target="_blank">
+  <img src="/images/dreamstartup-whatsapp2.png" alt="Chat on WhatsApp">
+</a>
+<!-- End WhatsApp Button -->
+<style>
+  /* WhatsApp Button Styles */
+  .whatsapp-widget {
+      position: fixed;
+      bottom: 20px; /* Adjust position as needed */
+      right: 20px;  /* Adjust position as needed */
+      z-index: 1000; /* Make sure it appears above other content */
+      text-decoration: none;
+  }
+  
+  .whatsapp-widget img {
+      width: 150px; /* Adjust size */
+      height: 70px; /* Adjust size */
+    
+  }
+  
+  .whatsapp-widget img:hover {
+      transform: scale(1.1); /* Hover effect */
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+      .whatsapp-widget img {
+          width: 180px; /* Adjust size for mobile */
+          height: 50px; /* Adjust size for mobile */
+      }
+  }
+</style>
+  
+  <!-- Add this script to the end of the file -->
+  <script>
+    document.addEventListener('scroll', function () {
+        const widget = document.querySelector('.whatsapp-widget');
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        widget.style.display = scrollTop > 200 ? 'block' : 'none'; // Adjust threshold as needed
+    });
+  </script>
+  <!-- End of WhatsApp Button Script -->
 
   <script src="/js/scripts.js"></script>
   <script src="/js/common.js"></script>

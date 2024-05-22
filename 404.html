@@ -132,8 +132,6 @@
                 
                   <a href="/contact-us/" class="nav__link">Contact Us</a>
                 
-                  <a href="/our-team/" class="nav__link">Our Team</a>
-                
                 </div>
               </li>
               
@@ -1643,6 +1641,51 @@
   </div>
 </footer>
 <!-- end footer -->
+
+
+<!-- WhatsApp Button -->
+<a class="whatsapp-widget" aria-label="Chat on WhatsApp" href="https://wa.me/447915762239" target="_blank">
+  <img src="/images/dreamstartup-whatsapp2.png" alt="Chat on WhatsApp">
+</a>
+<!-- End WhatsApp Button -->
+<style>
+  /* WhatsApp Button Styles */
+  .whatsapp-widget {
+      position: fixed;
+      bottom: 20px; /* Adjust position as needed */
+      right: 20px;  /* Adjust position as needed */
+      z-index: 1000; /* Make sure it appears above other content */
+      text-decoration: none;
+  }
+  
+  .whatsapp-widget img {
+      width: 150px; /* Adjust size */
+      height: 70px; /* Adjust size */
+    
+  }
+  
+  .whatsapp-widget img:hover {
+      transform: scale(1.1); /* Hover effect */
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+      .whatsapp-widget img {
+          width: 180px; /* Adjust size for mobile */
+          height: 50px; /* Adjust size for mobile */
+      }
+  }
+</style>
+  
+  <!-- Add this script to the end of the file -->
+  <script>
+    document.addEventListener('scroll', function () {
+        const widget = document.querySelector('.whatsapp-widget');
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        widget.style.display = scrollTop > 200 ? 'block' : 'none'; // Adjust threshold as needed
+    });
+  </script>
+  <!-- End of WhatsApp Button Script -->
 
   <script src="/js/scripts.js"></script>
   <script src="/js/common.js"></script>

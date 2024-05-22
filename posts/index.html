@@ -132,8 +132,6 @@
                 
                   <a href="/contact-us/" class="nav__link">Contact Us</a>
                 
-                  <a href="/our-team/" class="nav__link">Our Team</a>
-                
                 </div>
               </li>
               
@@ -342,7 +340,7 @@
 
 
       <p class="article__excerpt">Revamping your online store involves more than just a fresh design or new products. To truly boost your revenue and grow your business, professional ad management is essential. Here’s why investing in expert ad management can transform your Shopif...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -353,7 +351,7 @@
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -394,7 +392,7 @@
 
 
       <p class="article__excerpt">In the competitive world of e-commerce, maximising sales requires a strategic approach. Combining Shopify’s powerful platform with targeted ads is a proven way to boost revenue and grow your business. Here’s how targeted advertising can take your ...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -405,7 +403,7 @@
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -446,7 +444,7 @@
 
 
       <p class="article__excerpt">Launching an online store is an exciting venture, but to ensure its success, you need more than just a great product and a user-friendly website. Expert ad setup is crucial to driving traffic, increasing visibility, and ultimately boosting sales. ...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -457,7 +455,7 @@
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -498,7 +496,7 @@
 
 
       <p class="article__excerpt">In the fast-paced digital world, achieving high-speed branding without breaking the bank is essential for businesses of all sizes. The secret lies in leveraging the power of HTML, CSS, and JavaScript, combined with secure JSON data exchange via AP...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -509,7 +507,7 @@
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -550,7 +548,7 @@
 
 
       <p class="article__excerpt">In the rapidly evolving business world, staying ahead of the competition requires adopting innovative solutions. Custom software can transform your business by automating processes, enhancing efficiency, and attracting new customers. Here’s how in...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -561,7 +559,7 @@
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -602,7 +600,7 @@
 
 
       <p class="article__excerpt">Email marketing remains one of the most effective channels for reaching customers and driving conversions. With the right strategies, you can maximise your return on investment (ROI) and significantly boost your business growth. Here’s how to achi...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -613,7 +611,7 @@
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -628,7 +626,7 @@
 <!-- begin pagination -->
 <div class="container animate">
   <div class="pagination">
-    <button class="load-more-posts button">Load more posts</button>
+    <button class="load-more-posts button">Load more </button>
   </div>
 </div>
 <!-- end pagination -->
@@ -721,6 +719,51 @@
   </div>
 </footer>
 <!-- end footer -->
+
+
+<!-- WhatsApp Button -->
+<a class="whatsapp-widget" aria-label="Chat on WhatsApp" href="https://wa.me/447915762239" target="_blank">
+  <img src="/images/dreamstartup-whatsapp2.png" alt="Chat on WhatsApp">
+</a>
+<!-- End WhatsApp Button -->
+<style>
+  /* WhatsApp Button Styles */
+  .whatsapp-widget {
+      position: fixed;
+      bottom: 20px; /* Adjust position as needed */
+      right: 20px;  /* Adjust position as needed */
+      z-index: 1000; /* Make sure it appears above other content */
+      text-decoration: none;
+  }
+  
+  .whatsapp-widget img {
+      width: 150px; /* Adjust size */
+      height: 70px; /* Adjust size */
+    
+  }
+  
+  .whatsapp-widget img:hover {
+      transform: scale(1.1); /* Hover effect */
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+      .whatsapp-widget img {
+          width: 180px; /* Adjust size for mobile */
+          height: 50px; /* Adjust size for mobile */
+      }
+  }
+</style>
+  
+  <!-- Add this script to the end of the file -->
+  <script>
+    document.addEventListener('scroll', function () {
+        const widget = document.querySelector('.whatsapp-widget');
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        widget.style.display = scrollTop > 200 ? 'block' : 'none'; // Adjust threshold as needed
+    });
+  </script>
+  <!-- End of WhatsApp Button Script -->
 
   <script src="/js/scripts.js"></script>
   <script src="/js/common.js"></script>

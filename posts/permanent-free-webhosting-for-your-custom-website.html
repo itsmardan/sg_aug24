@@ -134,8 +134,6 @@
                 
                   <a href="/contact-us/" class="nav__link">Contact Us</a>
                 
-                  <a href="/our-team/" class="nav__link">Our Team</a>
-                
                 </div>
               </li>
               
@@ -299,7 +297,7 @@
     
     <div class="post__next">
       <div class="next__box">
-        <span class="post__nav post__nav__next">Newer post</span>
+        <span class="post__nav post__nav__next">Next</span>
         <h2 class="post__nav__title"><a href="/posts/erase-your-brand-web-hosting-bill-forever">How to Erase Your Brand Web Hosting Bill Forever</a></h2>
       </div>
       <a href="/posts/erase-your-brand-web-hosting-bill-forever" class="next__image">
@@ -393,7 +391,7 @@
 
 
       <p class="article__excerpt">In the fast-paced digital world, achieving high-speed branding without breaking the bank is essential for businesses of all sizes. The secret lies in leveraging the power of HTML, CSS, and JavaScript, combined with secure JSON data exchange via AP...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -404,7 +402,7 @@
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -495,7 +493,7 @@
 ## Blazing Fast Load Times
 
 A high-speed static websit...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -506,7 +504,7 @@ A high-speed static websit...</p>
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -565,7 +563,7 @@ A high-speed static websit...</p>
 
 
       <p class="article__excerpt">Imagine never paying for website hosting again. It may sound too good to be true, but with the right approach, it's entirely possible. This article will guide you through the methods to achieve this using static site architecture and platforms lik...</p>
-
+<!-- 
       <div class="article__info">
         <a class="article__author" href="/about/">
           
@@ -576,7 +574,7 @@ A high-speed static websit...</p>
             <span class="article__author__name">Dream Accelerator</span>
           
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -1128,8 +1126,6 @@ A high-speed static websit...</p>
           <form class="subscribe-form" id="subscribeform" method="POST">
             <label class="screen-reader-text" for="subscribe-email">Email address</label>
             <input class="subscribe-email required email" id="subscribe-email" type="email" name="email" placeholder="Email address" required>
-            <input type="hidden" name="_confirm_email" value="false">
-            <input type="hidden" name="message" value="New Dreamstartup subscribe Alert">
             <button class="subscribe-button" type="submit" name="subscribe"><span class="screen-reader-text">Subscribe</span> <i class="fa-solid fa-arrow-right"></i></button>
           </form>
 
@@ -1150,40 +1146,13 @@ A high-speed static websit...</p>
 <!-- end subscribe -->
 
 
-<!-- Include the SubmitJSON script directly -->
 <script>
-  class SubmitJSON {
-    constructor(config) {
-      this.apiKey = config.apiKey;
-      this.endpoint = config.endpoint;
-    }
-
-    async submit(data) {
-      const response = await fetch(`https://api.submitjson.com/v1/submit/${this.endpoint}`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'X-API-Key': this.apiKey,
-        },
-        body: JSON.stringify(data), // Send data as flat JSON
-      });
-
-      if (!response.ok) {
-        const errorData = await response.json();
-        console.error('Server response:', errorData);
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-
-      return await response.json();
-    }
-  }
-
   document.getElementById('subscribeform').addEventListener('submit', async function (e) {
     e.preventDefault();  // Prevent the default form submission behavior
-
     const formData = new FormData(this);
-    const data = {};
 
+    // Convert FormData to a JSON object
+    const data = {};
     formData.forEach((value, key) => {
       data[key] = value;
     });
@@ -1191,17 +1160,33 @@ A high-speed static websit...</p>
     console.log('Form data:', data); // Log the data for debugging
 
     try {
-      // Initialize the SubmitJSON client
-      const sj = new SubmitJSON({
-        apiKey: 'sjk_57541ca93b0441b98eebd0a3a0e91a21',
-        endpoint: 'Z5w6Y9IKC'
+      // Prepare the final data object as expected by the API
+      const finalData = {
+        data: {
+          email: data.email,
+          message: 'New Dreamstartup subscribe Alert'
+        }
+      };
+
+      // Attempt to send data to the server
+      const response = await fetch('https://api.submitjson.com/v1/submit/Z5w6Y9IKC', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-API-Key': 'sjk_57541ca93b0441b98eebd0a3a0e91a21'
+        },
+        body: JSON.stringify(finalData)  // Wrap data in an object with a 'data' key
       });
-
-      // Submit the data
-      const responseData = await sj.submit(data);
-
-      console.log('📦 Submission response:', responseData);  // Log the submission data for debugging
-
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error('Server response:', errorData);
+        throw new Error(`HTTP error! Status: ${response.status}`);  // Check if the server response was not OK
+      }
+  
+      const submission = await response.json();
+      console.log('Submitted data:', submission);  // Log the submission data for debugging
+  
       // Redirect to the thank-you page
       window.location.href = '/thank-you/';
     } catch (error) {
@@ -1290,6 +1275,51 @@ A high-speed static websit...</p>
   </div>
 </footer>
 <!-- end footer -->
+
+
+<!-- WhatsApp Button -->
+<a class="whatsapp-widget" aria-label="Chat on WhatsApp" href="https://wa.me/447915762239" target="_blank">
+  <img src="/images/dreamstartup-whatsapp2.png" alt="Chat on WhatsApp">
+</a>
+<!-- End WhatsApp Button -->
+<style>
+  /* WhatsApp Button Styles */
+  .whatsapp-widget {
+      position: fixed;
+      bottom: 20px; /* Adjust position as needed */
+      right: 20px;  /* Adjust position as needed */
+      z-index: 1000; /* Make sure it appears above other content */
+      text-decoration: none;
+  }
+  
+  .whatsapp-widget img {
+      width: 150px; /* Adjust size */
+      height: 70px; /* Adjust size */
+    
+  }
+  
+  .whatsapp-widget img:hover {
+      transform: scale(1.1); /* Hover effect */
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+      .whatsapp-widget img {
+          width: 180px; /* Adjust size for mobile */
+          height: 50px; /* Adjust size for mobile */
+      }
+  }
+</style>
+  
+  <!-- Add this script to the end of the file -->
+  <script>
+    document.addEventListener('scroll', function () {
+        const widget = document.querySelector('.whatsapp-widget');
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        widget.style.display = scrollTop > 200 ? 'block' : 'none'; // Adjust threshold as needed
+    });
+  </script>
+  <!-- End of WhatsApp Button Script -->
 
   <script src="/js/scripts.js"></script>
   <script src="/js/common.js"></script>
