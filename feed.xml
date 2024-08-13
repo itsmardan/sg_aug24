@@ -5,8 +5,8 @@
         <description>Find out if your tech startup qualifies for government grants with SwiftGrants. Our experts help you secure funding to boost your business growth. Check your eligibility now!</description>
         <link>https://swiftgrants.co.uk/</link>
         <atom:link href="https://swiftgrants.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 12 Aug 2024 20:45:08 +0100</pubDate>
-        <lastBuildDate>Mon, 12 Aug 2024 20:45:08 +0100</lastBuildDate>
+        <pubDate>Tue, 13 Aug 2024 12:17:45 +0100</pubDate>
+        <lastBuildDate>Tue, 13 Aug 2024 12:17:45 +0100</lastBuildDate>
         <generator>Jekyll v4.3.3</generator>
         
             <item>
@@ -68,6 +68,188 @@
   &lt;li&gt;&lt;strong&gt;Expanded Opportunities:&lt;/strong&gt; Through connections with Innovate UK Business Connect, businesses can leverage additional opportunities for growth and collaboration.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Dedicated Project Team:&lt;/strong&gt; Each KTP project is supported by a dedicated team of professionals, committed to delivering on the business’s strategic objectives.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Uncertain about your company’s eligibility?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;containerp&quot;&gt;
+  &lt;div class=&quot;row justify-content-center pb-5&quot;&gt;
+    &lt;div class=&quot;col-md-8&quot;&gt;
+      &lt;div class=&quot;contact-form-container&quot;&gt;
+        &lt;div class=&quot;contact-form&quot;&gt;
+          &lt;h1&gt;We&apos;re Here to Help!&lt;/h1&gt;
+          &lt;form id=&quot;grantform&quot; method=&quot;POST&quot;&gt;
+            &lt;!-- Grouping Full Name and Phone --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;name&quot;&gt;Full Name:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; class=&quot;form-control&quot; placeholder=&quot;Full Name&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;phone&quot;&gt;Phone:&lt;/label&gt;
+                &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; class=&quot;form-control&quot; placeholder=&quot;Phone Number&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Grouping Email and Website --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+                &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; class=&quot;form-control&quot; placeholder=&quot;Email Address&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;website&quot;&gt;Website:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;website&quot; name=&quot;website&quot; class=&quot;form-control&quot; placeholder=&quot;Website address&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Single field for Service Type --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;service-type&quot;&gt;Service Type&lt;/label&gt;
+              &lt;select id=&quot;service-type&quot; name=&quot;service-type&quot; class=&quot;form-control&quot; required=&quot;&quot;&gt;
+                &lt;option value=&quot;&quot; disabled=&quot;&quot; selected=&quot;&quot;&gt;Select a service&lt;/option&gt;
+                &lt;option value=&quot;doctoral_grants&quot;&gt;Doctoral Grants&lt;/option&gt;
+                &lt;option value=&quot;custom_inquiry&quot;&gt;Custom Enquiry&lt;/option&gt;
+                &lt;option value=&quot;funding_advice&quot;&gt;Funding and Tender Advice&lt;/option&gt;
+                &lt;option value=&quot;grant_application&quot;&gt;Grant Application Assistance&lt;/option&gt;
+                &lt;option value=&quot;proposal_review&quot;&gt;Proposal Review and Submission&lt;/option&gt;
+                &lt;option value=&quot;compliance_support&quot;&gt;Compliance and Documentation Support&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+            &lt;!-- Text area for Message --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;message&quot;&gt;Details About Your Request:&lt;/label&gt;
+              &lt;textarea id=&quot;message&quot; name=&quot;message&quot; class=&quot;form-control&quot; placeholder=&quot;Describe your funding needs, research project, or specific questions regarding our services.&quot; rows=&quot;5&quot; required=&quot;&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_captcha&quot; value=&quot;true&quot; /&gt;
+            &lt;input type=&quot;text&quot; name=&quot;_confirm_email&quot; style=&quot;display:none&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_subject&quot; value=&quot;Grant Offer Form Submission&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_next&quot; value=&quot;/thank-you/&quot; /&gt;
+            &lt;button type=&quot;submit&quot; class=&quot;btn btn-lg btn-primary btn-submit&quot;&gt;Submit Request&lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .containerp {
+    background-color: rgba(255, 252, 192, 0.9); /* Light cream background */
+    padding: 50px;
+    border-radius: 8px;
+    border: 2px dotted #6495ED;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+  }
+
+  .contact-form h1 {
+    color: #444;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+  }
+
+  .form-group .col-md-69 {
+    padding: 0 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  .form-control {
+    background-color: #f9f9f9;
+    border: 1px dotted #bbbbbb;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .form-control:focus {
+    border-color: #888;
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+  }
+
+  .btn-submit {
+    background-color: #6495ED;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+
+  .btn-submit:hover {
+    background-color: #4169E1;
+  }
+
+  @media (max-width: 768px) {
+    .form-group .col-md-69 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+&lt;/style&gt;
+
+&lt;script&gt;
+  document.getElementById(&apos;grantform&apos;).addEventListener(&apos;submit&apos;, async function (e) {
+    e.preventDefault();  // Prevent the default form submission behavior
+    const formData = new FormData(this);
+
+    const data = {};
+    formData.forEach((value, key) =&gt; {
+      data[key] = value;
+    });
+
+    try {
+      // Attempt to send data to the server
+      const response = await fetch(&apos;https://api.submitjson.com/v1/submit/bE9MuNKac&apos;, {
+        method: &apos;POST&apos;,
+        headers: {
+          &apos;Content-Type&apos;: &apos;application/json&apos;,
+          &apos;X-API-Key&apos;: &apos;sjk_57541ca93b0441b98eebd0a3a0e91a21&apos;
+        },
+        body: JSON.stringify({ data })  // Wrap data in an object with a &apos;data&apos; key
+      });
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error(&apos;Server response:&apos;, errorData);
+        throw new Error(`HTTP error! Status: ${response.status}`);  // Check if the server response was not OK
+      }
+  
+      const submission = await response.json();
+      console.log(&apos;Submitted data:&apos;, submission);  // Log the submission data for debugging
+  
+      // Redirect to the thank-you page
+      window.location.href = &apos;/thank-you/&apos;;
+    } catch (error) {
+      console.error(&apos;Fetch error:&apos;, error);
+      alert(&quot;Failed to submit form. Please try again.&quot;);
+    }
+  });
+&lt;/script&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;interested-in-a-ktp&quot;&gt;Interested in a KTP?&lt;/h2&gt;
 
@@ -153,6 +335,188 @@
 
 &lt;p&gt;Navigating the government tender process requires precision and a deep understanding of the requirements. Success is not just about ticking boxes; it’s about crafting proposals that demonstrate true value, innovation, and a commitment to social and environmental responsibility.&lt;/p&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;Uncertain about your company’s eligibility?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;containerp&quot;&gt;
+  &lt;div class=&quot;row justify-content-center pb-5&quot;&gt;
+    &lt;div class=&quot;col-md-8&quot;&gt;
+      &lt;div class=&quot;contact-form-container&quot;&gt;
+        &lt;div class=&quot;contact-form&quot;&gt;
+          &lt;h1&gt;We&apos;re Here to Help!&lt;/h1&gt;
+          &lt;form id=&quot;grantform&quot; method=&quot;POST&quot;&gt;
+            &lt;!-- Grouping Full Name and Phone --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;name&quot;&gt;Full Name:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; class=&quot;form-control&quot; placeholder=&quot;Full Name&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;phone&quot;&gt;Phone:&lt;/label&gt;
+                &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; class=&quot;form-control&quot; placeholder=&quot;Phone Number&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Grouping Email and Website --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+                &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; class=&quot;form-control&quot; placeholder=&quot;Email Address&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;website&quot;&gt;Website:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;website&quot; name=&quot;website&quot; class=&quot;form-control&quot; placeholder=&quot;Website address&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Single field for Service Type --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;service-type&quot;&gt;Service Type&lt;/label&gt;
+              &lt;select id=&quot;service-type&quot; name=&quot;service-type&quot; class=&quot;form-control&quot; required=&quot;&quot;&gt;
+                &lt;option value=&quot;&quot; disabled=&quot;&quot; selected=&quot;&quot;&gt;Select a service&lt;/option&gt;
+                &lt;option value=&quot;doctoral_grants&quot;&gt;Doctoral Grants&lt;/option&gt;
+                &lt;option value=&quot;custom_inquiry&quot;&gt;Custom Enquiry&lt;/option&gt;
+                &lt;option value=&quot;funding_advice&quot;&gt;Funding and Tender Advice&lt;/option&gt;
+                &lt;option value=&quot;grant_application&quot;&gt;Grant Application Assistance&lt;/option&gt;
+                &lt;option value=&quot;proposal_review&quot;&gt;Proposal Review and Submission&lt;/option&gt;
+                &lt;option value=&quot;compliance_support&quot;&gt;Compliance and Documentation Support&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+            &lt;!-- Text area for Message --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;message&quot;&gt;Details About Your Request:&lt;/label&gt;
+              &lt;textarea id=&quot;message&quot; name=&quot;message&quot; class=&quot;form-control&quot; placeholder=&quot;Describe your funding needs, research project, or specific questions regarding our services.&quot; rows=&quot;5&quot; required=&quot;&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_captcha&quot; value=&quot;true&quot; /&gt;
+            &lt;input type=&quot;text&quot; name=&quot;_confirm_email&quot; style=&quot;display:none&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_subject&quot; value=&quot;Grant Offer Form Submission&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_next&quot; value=&quot;/thank-you/&quot; /&gt;
+            &lt;button type=&quot;submit&quot; class=&quot;btn btn-lg btn-primary btn-submit&quot;&gt;Submit Request&lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .containerp {
+    background-color: rgba(255, 252, 192, 0.9); /* Light cream background */
+    padding: 50px;
+    border-radius: 8px;
+    border: 2px dotted #6495ED;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+  }
+
+  .contact-form h1 {
+    color: #444;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+  }
+
+  .form-group .col-md-69 {
+    padding: 0 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  .form-control {
+    background-color: #f9f9f9;
+    border: 1px dotted #bbbbbb;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .form-control:focus {
+    border-color: #888;
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+  }
+
+  .btn-submit {
+    background-color: #6495ED;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+
+  .btn-submit:hover {
+    background-color: #4169E1;
+  }
+
+  @media (max-width: 768px) {
+    .form-group .col-md-69 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+&lt;/style&gt;
+
+&lt;script&gt;
+  document.getElementById(&apos;grantform&apos;).addEventListener(&apos;submit&apos;, async function (e) {
+    e.preventDefault();  // Prevent the default form submission behavior
+    const formData = new FormData(this);
+
+    const data = {};
+    formData.forEach((value, key) =&gt; {
+      data[key] = value;
+    });
+
+    try {
+      // Attempt to send data to the server
+      const response = await fetch(&apos;https://api.submitjson.com/v1/submit/bE9MuNKac&apos;, {
+        method: &apos;POST&apos;,
+        headers: {
+          &apos;Content-Type&apos;: &apos;application/json&apos;,
+          &apos;X-API-Key&apos;: &apos;sjk_57541ca93b0441b98eebd0a3a0e91a21&apos;
+        },
+        body: JSON.stringify({ data })  // Wrap data in an object with a &apos;data&apos; key
+      });
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error(&apos;Server response:&apos;, errorData);
+        throw new Error(`HTTP error! Status: ${response.status}`);  // Check if the server response was not OK
+      }
+  
+      const submission = await response.json();
+      console.log(&apos;Submitted data:&apos;, submission);  // Log the submission data for debugging
+  
+      // Redirect to the thank-you page
+      window.location.href = &apos;/thank-you/&apos;;
+    } catch (error) {
+      console.error(&apos;Fetch error:&apos;, error);
+      alert(&quot;Failed to submit form. Please try again.&quot;);
+    }
+  });
+&lt;/script&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;Secure your next government contract with confidence—partner with Swift Grants for expert guidance and support.&lt;/p&gt;
 </description>
                 <pubDate>Thu, 25 Jul 2024 00:00:00 +0100</pubDate>
@@ -204,6 +568,188 @@
   &lt;li&gt;&lt;strong&gt;Expert Feedback:&lt;/strong&gt; Receive two comprehensive reviews of your application, with free resubmission support to enhance your chances of success.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;Uncertain about your company’s eligibility?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;containerp&quot;&gt;
+  &lt;div class=&quot;row justify-content-center pb-5&quot;&gt;
+    &lt;div class=&quot;col-md-8&quot;&gt;
+      &lt;div class=&quot;contact-form-container&quot;&gt;
+        &lt;div class=&quot;contact-form&quot;&gt;
+          &lt;h1&gt;We&apos;re Here to Help!&lt;/h1&gt;
+          &lt;form id=&quot;grantform&quot; method=&quot;POST&quot;&gt;
+            &lt;!-- Grouping Full Name and Phone --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;name&quot;&gt;Full Name:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; class=&quot;form-control&quot; placeholder=&quot;Full Name&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;phone&quot;&gt;Phone:&lt;/label&gt;
+                &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; class=&quot;form-control&quot; placeholder=&quot;Phone Number&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Grouping Email and Website --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+                &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; class=&quot;form-control&quot; placeholder=&quot;Email Address&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;website&quot;&gt;Website:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;website&quot; name=&quot;website&quot; class=&quot;form-control&quot; placeholder=&quot;Website address&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Single field for Service Type --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;service-type&quot;&gt;Service Type&lt;/label&gt;
+              &lt;select id=&quot;service-type&quot; name=&quot;service-type&quot; class=&quot;form-control&quot; required=&quot;&quot;&gt;
+                &lt;option value=&quot;&quot; disabled=&quot;&quot; selected=&quot;&quot;&gt;Select a service&lt;/option&gt;
+                &lt;option value=&quot;doctoral_grants&quot;&gt;Doctoral Grants&lt;/option&gt;
+                &lt;option value=&quot;custom_inquiry&quot;&gt;Custom Enquiry&lt;/option&gt;
+                &lt;option value=&quot;funding_advice&quot;&gt;Funding and Tender Advice&lt;/option&gt;
+                &lt;option value=&quot;grant_application&quot;&gt;Grant Application Assistance&lt;/option&gt;
+                &lt;option value=&quot;proposal_review&quot;&gt;Proposal Review and Submission&lt;/option&gt;
+                &lt;option value=&quot;compliance_support&quot;&gt;Compliance and Documentation Support&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+            &lt;!-- Text area for Message --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;message&quot;&gt;Details About Your Request:&lt;/label&gt;
+              &lt;textarea id=&quot;message&quot; name=&quot;message&quot; class=&quot;form-control&quot; placeholder=&quot;Describe your funding needs, research project, or specific questions regarding our services.&quot; rows=&quot;5&quot; required=&quot;&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_captcha&quot; value=&quot;true&quot; /&gt;
+            &lt;input type=&quot;text&quot; name=&quot;_confirm_email&quot; style=&quot;display:none&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_subject&quot; value=&quot;Grant Offer Form Submission&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_next&quot; value=&quot;/thank-you/&quot; /&gt;
+            &lt;button type=&quot;submit&quot; class=&quot;btn btn-lg btn-primary btn-submit&quot;&gt;Submit Request&lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .containerp {
+    background-color: rgba(255, 252, 192, 0.9); /* Light cream background */
+    padding: 50px;
+    border-radius: 8px;
+    border: 2px dotted #6495ED;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+  }
+
+  .contact-form h1 {
+    color: #444;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+  }
+
+  .form-group .col-md-69 {
+    padding: 0 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  .form-control {
+    background-color: #f9f9f9;
+    border: 1px dotted #bbbbbb;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .form-control:focus {
+    border-color: #888;
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+  }
+
+  .btn-submit {
+    background-color: #6495ED;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+
+  .btn-submit:hover {
+    background-color: #4169E1;
+  }
+
+  @media (max-width: 768px) {
+    .form-group .col-md-69 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+&lt;/style&gt;
+
+&lt;script&gt;
+  document.getElementById(&apos;grantform&apos;).addEventListener(&apos;submit&apos;, async function (e) {
+    e.preventDefault();  // Prevent the default form submission behavior
+    const formData = new FormData(this);
+
+    const data = {};
+    formData.forEach((value, key) =&gt; {
+      data[key] = value;
+    });
+
+    try {
+      // Attempt to send data to the server
+      const response = await fetch(&apos;https://api.submitjson.com/v1/submit/bE9MuNKac&apos;, {
+        method: &apos;POST&apos;,
+        headers: {
+          &apos;Content-Type&apos;: &apos;application/json&apos;,
+          &apos;X-API-Key&apos;: &apos;sjk_57541ca93b0441b98eebd0a3a0e91a21&apos;
+        },
+        body: JSON.stringify({ data })  // Wrap data in an object with a &apos;data&apos; key
+      });
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error(&apos;Server response:&apos;, errorData);
+        throw new Error(`HTTP error! Status: ${response.status}`);  // Check if the server response was not OK
+      }
+  
+      const submission = await response.json();
+      console.log(&apos;Submitted data:&apos;, submission);  // Log the submission data for debugging
+  
+      // Redirect to the thank-you page
+      window.location.href = &apos;/thank-you/&apos;;
+    } catch (error) {
+      console.error(&apos;Fetch error:&apos;, error);
+      alert(&quot;Failed to submit form. Please try again.&quot;);
+    }
+  });
+&lt;/script&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;take-action&quot;&gt;Take Action&lt;/h2&gt;
 
 &lt;p&gt;Ready to secure your EIC Accelerator Grant? Don’t miss out on this exceptional opportunity to gain substantial funding and expert support for your breakthrough innovation. Start by taking our eligibility quiz to assess your fit for the programme, and then embark on your application journey with confidence, backed by our expert guidance.&lt;/p&gt;
@@ -254,6 +800,188 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Our decades of experience in securing funding for innovative projects have resulted in a high success rate, with 63% of our clients securing grants in the latest government funding round. In the event of an unsuccessful application, we provide complimentary support for reapplication, maximising your chances of securing funding.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Uncertain about your company’s eligibility?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;containerp&quot;&gt;
+  &lt;div class=&quot;row justify-content-center pb-5&quot;&gt;
+    &lt;div class=&quot;col-md-8&quot;&gt;
+      &lt;div class=&quot;contact-form-container&quot;&gt;
+        &lt;div class=&quot;contact-form&quot;&gt;
+          &lt;h1&gt;We&apos;re Here to Help!&lt;/h1&gt;
+          &lt;form id=&quot;grantform&quot; method=&quot;POST&quot;&gt;
+            &lt;!-- Grouping Full Name and Phone --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;name&quot;&gt;Full Name:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; class=&quot;form-control&quot; placeholder=&quot;Full Name&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;phone&quot;&gt;Phone:&lt;/label&gt;
+                &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; class=&quot;form-control&quot; placeholder=&quot;Phone Number&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Grouping Email and Website --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+                &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; class=&quot;form-control&quot; placeholder=&quot;Email Address&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;website&quot;&gt;Website:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;website&quot; name=&quot;website&quot; class=&quot;form-control&quot; placeholder=&quot;Website address&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Single field for Service Type --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;service-type&quot;&gt;Service Type&lt;/label&gt;
+              &lt;select id=&quot;service-type&quot; name=&quot;service-type&quot; class=&quot;form-control&quot; required=&quot;&quot;&gt;
+                &lt;option value=&quot;&quot; disabled=&quot;&quot; selected=&quot;&quot;&gt;Select a service&lt;/option&gt;
+                &lt;option value=&quot;doctoral_grants&quot;&gt;Doctoral Grants&lt;/option&gt;
+                &lt;option value=&quot;custom_inquiry&quot;&gt;Custom Enquiry&lt;/option&gt;
+                &lt;option value=&quot;funding_advice&quot;&gt;Funding and Tender Advice&lt;/option&gt;
+                &lt;option value=&quot;grant_application&quot;&gt;Grant Application Assistance&lt;/option&gt;
+                &lt;option value=&quot;proposal_review&quot;&gt;Proposal Review and Submission&lt;/option&gt;
+                &lt;option value=&quot;compliance_support&quot;&gt;Compliance and Documentation Support&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+            &lt;!-- Text area for Message --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;message&quot;&gt;Details About Your Request:&lt;/label&gt;
+              &lt;textarea id=&quot;message&quot; name=&quot;message&quot; class=&quot;form-control&quot; placeholder=&quot;Describe your funding needs, research project, or specific questions regarding our services.&quot; rows=&quot;5&quot; required=&quot;&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_captcha&quot; value=&quot;true&quot; /&gt;
+            &lt;input type=&quot;text&quot; name=&quot;_confirm_email&quot; style=&quot;display:none&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_subject&quot; value=&quot;Grant Offer Form Submission&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_next&quot; value=&quot;/thank-you/&quot; /&gt;
+            &lt;button type=&quot;submit&quot; class=&quot;btn btn-lg btn-primary btn-submit&quot;&gt;Submit Request&lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .containerp {
+    background-color: rgba(255, 252, 192, 0.9); /* Light cream background */
+    padding: 50px;
+    border-radius: 8px;
+    border: 2px dotted #6495ED;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+  }
+
+  .contact-form h1 {
+    color: #444;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+  }
+
+  .form-group .col-md-69 {
+    padding: 0 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  .form-control {
+    background-color: #f9f9f9;
+    border: 1px dotted #bbbbbb;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .form-control:focus {
+    border-color: #888;
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+  }
+
+  .btn-submit {
+    background-color: #6495ED;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+
+  .btn-submit:hover {
+    background-color: #4169E1;
+  }
+
+  @media (max-width: 768px) {
+    .form-group .col-md-69 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+&lt;/style&gt;
+
+&lt;script&gt;
+  document.getElementById(&apos;grantform&apos;).addEventListener(&apos;submit&apos;, async function (e) {
+    e.preventDefault();  // Prevent the default form submission behavior
+    const formData = new FormData(this);
+
+    const data = {};
+    formData.forEach((value, key) =&gt; {
+      data[key] = value;
+    });
+
+    try {
+      // Attempt to send data to the server
+      const response = await fetch(&apos;https://api.submitjson.com/v1/submit/bE9MuNKac&apos;, {
+        method: &apos;POST&apos;,
+        headers: {
+          &apos;Content-Type&apos;: &apos;application/json&apos;,
+          &apos;X-API-Key&apos;: &apos;sjk_57541ca93b0441b98eebd0a3a0e91a21&apos;
+        },
+        body: JSON.stringify({ data })  // Wrap data in an object with a &apos;data&apos; key
+      });
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error(&apos;Server response:&apos;, errorData);
+        throw new Error(`HTTP error! Status: ${response.status}`);  // Check if the server response was not OK
+      }
+  
+      const submission = await response.json();
+      console.log(&apos;Submitted data:&apos;, submission);  // Log the submission data for debugging
+  
+      // Redirect to the thank-you page
+      window.location.href = &apos;/thank-you/&apos;;
+    } catch (error) {
+      console.error(&apos;Fetch error:&apos;, error);
+      alert(&quot;Failed to submit form. Please try again.&quot;);
+    }
+  });
+&lt;/script&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;immediate-action&quot;&gt;Immediate Action&lt;/h2&gt;
 
@@ -332,6 +1060,188 @@
 
 &lt;p&gt;Contribute to both academia and industry by fostering a collaborative environment where knowledge is shared, and innovations are realised. The impact of these partnerships extends beyond immediate project outcomes, creating lasting value for all parties involved.&lt;/p&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;Uncertain about your company’s eligibility?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;containerp&quot;&gt;
+  &lt;div class=&quot;row justify-content-center pb-5&quot;&gt;
+    &lt;div class=&quot;col-md-8&quot;&gt;
+      &lt;div class=&quot;contact-form-container&quot;&gt;
+        &lt;div class=&quot;contact-form&quot;&gt;
+          &lt;h1&gt;We&apos;re Here to Help!&lt;/h1&gt;
+          &lt;form id=&quot;grantform&quot; method=&quot;POST&quot;&gt;
+            &lt;!-- Grouping Full Name and Phone --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;name&quot;&gt;Full Name:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; class=&quot;form-control&quot; placeholder=&quot;Full Name&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;phone&quot;&gt;Phone:&lt;/label&gt;
+                &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; class=&quot;form-control&quot; placeholder=&quot;Phone Number&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Grouping Email and Website --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+                &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; class=&quot;form-control&quot; placeholder=&quot;Email Address&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;website&quot;&gt;Website:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;website&quot; name=&quot;website&quot; class=&quot;form-control&quot; placeholder=&quot;Website address&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Single field for Service Type --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;service-type&quot;&gt;Service Type&lt;/label&gt;
+              &lt;select id=&quot;service-type&quot; name=&quot;service-type&quot; class=&quot;form-control&quot; required=&quot;&quot;&gt;
+                &lt;option value=&quot;&quot; disabled=&quot;&quot; selected=&quot;&quot;&gt;Select a service&lt;/option&gt;
+                &lt;option value=&quot;doctoral_grants&quot;&gt;Doctoral Grants&lt;/option&gt;
+                &lt;option value=&quot;custom_inquiry&quot;&gt;Custom Enquiry&lt;/option&gt;
+                &lt;option value=&quot;funding_advice&quot;&gt;Funding and Tender Advice&lt;/option&gt;
+                &lt;option value=&quot;grant_application&quot;&gt;Grant Application Assistance&lt;/option&gt;
+                &lt;option value=&quot;proposal_review&quot;&gt;Proposal Review and Submission&lt;/option&gt;
+                &lt;option value=&quot;compliance_support&quot;&gt;Compliance and Documentation Support&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+            &lt;!-- Text area for Message --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;message&quot;&gt;Details About Your Request:&lt;/label&gt;
+              &lt;textarea id=&quot;message&quot; name=&quot;message&quot; class=&quot;form-control&quot; placeholder=&quot;Describe your funding needs, research project, or specific questions regarding our services.&quot; rows=&quot;5&quot; required=&quot;&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_captcha&quot; value=&quot;true&quot; /&gt;
+            &lt;input type=&quot;text&quot; name=&quot;_confirm_email&quot; style=&quot;display:none&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_subject&quot; value=&quot;Grant Offer Form Submission&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_next&quot; value=&quot;/thank-you/&quot; /&gt;
+            &lt;button type=&quot;submit&quot; class=&quot;btn btn-lg btn-primary btn-submit&quot;&gt;Submit Request&lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .containerp {
+    background-color: rgba(255, 252, 192, 0.9); /* Light cream background */
+    padding: 50px;
+    border-radius: 8px;
+    border: 2px dotted #6495ED;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+  }
+
+  .contact-form h1 {
+    color: #444;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+  }
+
+  .form-group .col-md-69 {
+    padding: 0 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  .form-control {
+    background-color: #f9f9f9;
+    border: 1px dotted #bbbbbb;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .form-control:focus {
+    border-color: #888;
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+  }
+
+  .btn-submit {
+    background-color: #6495ED;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+
+  .btn-submit:hover {
+    background-color: #4169E1;
+  }
+
+  @media (max-width: 768px) {
+    .form-group .col-md-69 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+&lt;/style&gt;
+
+&lt;script&gt;
+  document.getElementById(&apos;grantform&apos;).addEventListener(&apos;submit&apos;, async function (e) {
+    e.preventDefault();  // Prevent the default form submission behavior
+    const formData = new FormData(this);
+
+    const data = {};
+    formData.forEach((value, key) =&gt; {
+      data[key] = value;
+    });
+
+    try {
+      // Attempt to send data to the server
+      const response = await fetch(&apos;https://api.submitjson.com/v1/submit/bE9MuNKac&apos;, {
+        method: &apos;POST&apos;,
+        headers: {
+          &apos;Content-Type&apos;: &apos;application/json&apos;,
+          &apos;X-API-Key&apos;: &apos;sjk_57541ca93b0441b98eebd0a3a0e91a21&apos;
+        },
+        body: JSON.stringify({ data })  // Wrap data in an object with a &apos;data&apos; key
+      });
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error(&apos;Server response:&apos;, errorData);
+        throw new Error(`HTTP error! Status: ${response.status}`);  // Check if the server response was not OK
+      }
+  
+      const submission = await response.json();
+      console.log(&apos;Submitted data:&apos;, submission);  // Log the submission data for debugging
+  
+      // Redirect to the thank-you page
+      window.location.href = &apos;/thank-you/&apos;;
+    } catch (error) {
+      console.error(&apos;Fetch error:&apos;, error);
+      alert(&quot;Failed to submit form. Please try again.&quot;);
+    }
+  });
+&lt;/script&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;the-swift-grants-advantage&quot;&gt;The Swift Grants Advantage&lt;/h2&gt;
 
 &lt;p&gt;Swift Grants provides a streamlined pathway to industry-academia collaboration. Our program connects your business with select UK universities, offering unique innovation opportunities that are both efficient and impactful. By partnering with us, you can seamlessly integrate academic expertise into your operations, driving meaningful results and transforming your ideas into reality.&lt;/p&gt;
@@ -380,6 +1290,188 @@
 &lt;h2 id=&quot;how-to-apply&quot;&gt;How to Apply&lt;/h2&gt;
 
 &lt;p&gt;Applying for a KTP is a straightforward process, with most opportunities being advertised through university career services, industry networks, and specialised recruitment platforms. The application process typically requires you to submit a CV, cover letter, and in some cases, a project-specific proposal. Engaging early with your university’s KTP office can provide you with valuable guidance and increase your chances of securing a position. Their support can be instrumental in navigating the application process and ensuring that you find the KTP that best aligns with your career aspirations.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Uncertain about your company’s eligibility?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;containerp&quot;&gt;
+  &lt;div class=&quot;row justify-content-center pb-5&quot;&gt;
+    &lt;div class=&quot;col-md-8&quot;&gt;
+      &lt;div class=&quot;contact-form-container&quot;&gt;
+        &lt;div class=&quot;contact-form&quot;&gt;
+          &lt;h1&gt;We&apos;re Here to Help!&lt;/h1&gt;
+          &lt;form id=&quot;grantform&quot; method=&quot;POST&quot;&gt;
+            &lt;!-- Grouping Full Name and Phone --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;name&quot;&gt;Full Name:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; class=&quot;form-control&quot; placeholder=&quot;Full Name&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;phone&quot;&gt;Phone:&lt;/label&gt;
+                &lt;input type=&quot;tel&quot; id=&quot;phone&quot; name=&quot;phone&quot; class=&quot;form-control&quot; placeholder=&quot;Phone Number&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Grouping Email and Website --&gt;
+            &lt;div class=&quot;form-group row&quot;&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+                &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; class=&quot;form-control&quot; placeholder=&quot;Email Address&quot; required=&quot;&quot; /&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-md-69&quot;&gt;
+                &lt;label for=&quot;website&quot;&gt;Website:&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;website&quot; name=&quot;website&quot; class=&quot;form-control&quot; placeholder=&quot;Website address&quot; /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Single field for Service Type --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;service-type&quot;&gt;Service Type&lt;/label&gt;
+              &lt;select id=&quot;service-type&quot; name=&quot;service-type&quot; class=&quot;form-control&quot; required=&quot;&quot;&gt;
+                &lt;option value=&quot;&quot; disabled=&quot;&quot; selected=&quot;&quot;&gt;Select a service&lt;/option&gt;
+                &lt;option value=&quot;doctoral_grants&quot;&gt;Doctoral Grants&lt;/option&gt;
+                &lt;option value=&quot;custom_inquiry&quot;&gt;Custom Enquiry&lt;/option&gt;
+                &lt;option value=&quot;funding_advice&quot;&gt;Funding and Tender Advice&lt;/option&gt;
+                &lt;option value=&quot;grant_application&quot;&gt;Grant Application Assistance&lt;/option&gt;
+                &lt;option value=&quot;proposal_review&quot;&gt;Proposal Review and Submission&lt;/option&gt;
+                &lt;option value=&quot;compliance_support&quot;&gt;Compliance and Documentation Support&lt;/option&gt;
+              &lt;/select&gt;
+            &lt;/div&gt;
+            &lt;!-- Text area for Message --&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;message&quot;&gt;Details About Your Request:&lt;/label&gt;
+              &lt;textarea id=&quot;message&quot; name=&quot;message&quot; class=&quot;form-control&quot; placeholder=&quot;Describe your funding needs, research project, or specific questions regarding our services.&quot; rows=&quot;5&quot; required=&quot;&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_captcha&quot; value=&quot;true&quot; /&gt;
+            &lt;input type=&quot;text&quot; name=&quot;_confirm_email&quot; style=&quot;display:none&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_subject&quot; value=&quot;Grant Offer Form Submission&quot; /&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_next&quot; value=&quot;/thank-you/&quot; /&gt;
+            &lt;button type=&quot;submit&quot; class=&quot;btn btn-lg btn-primary btn-submit&quot;&gt;Submit Request&lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .containerp {
+    background-color: rgba(255, 252, 192, 0.9); /* Light cream background */
+    padding: 50px;
+    border-radius: 8px;
+    border: 2px dotted #6495ED;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+  }
+
+  .contact-form h1 {
+    color: #444;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5px;
+  }
+
+  .form-group .col-md-69 {
+    padding: 0 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    font-family: &apos;Trebuchet MS&apos;, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  .form-control {
+    background-color: #f9f9f9;
+    border: 1px dotted #bbbbbb;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .form-control:focus {
+    border-color: #888;
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+  }
+
+  .btn-submit {
+    background-color: #6495ED;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+
+  .btn-submit:hover {
+    background-color: #4169E1;
+  }
+
+  @media (max-width: 768px) {
+    .form-group .col-md-69 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+&lt;/style&gt;
+
+&lt;script&gt;
+  document.getElementById(&apos;grantform&apos;).addEventListener(&apos;submit&apos;, async function (e) {
+    e.preventDefault();  // Prevent the default form submission behavior
+    const formData = new FormData(this);
+
+    const data = {};
+    formData.forEach((value, key) =&gt; {
+      data[key] = value;
+    });
+
+    try {
+      // Attempt to send data to the server
+      const response = await fetch(&apos;https://api.submitjson.com/v1/submit/bE9MuNKac&apos;, {
+        method: &apos;POST&apos;,
+        headers: {
+          &apos;Content-Type&apos;: &apos;application/json&apos;,
+          &apos;X-API-Key&apos;: &apos;sjk_57541ca93b0441b98eebd0a3a0e91a21&apos;
+        },
+        body: JSON.stringify({ data })  // Wrap data in an object with a &apos;data&apos; key
+      });
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error(&apos;Server response:&apos;, errorData);
+        throw new Error(`HTTP error! Status: ${response.status}`);  // Check if the server response was not OK
+      }
+  
+      const submission = await response.json();
+      console.log(&apos;Submitted data:&apos;, submission);  // Log the submission data for debugging
+  
+      // Redirect to the thank-you page
+      window.location.href = &apos;/thank-you/&apos;;
+    } catch (error) {
+      console.error(&apos;Fetch error:&apos;, error);
+      alert(&quot;Failed to submit form. Please try again.&quot;);
+    }
+  });
+&lt;/script&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
 
